@@ -1,0 +1,20 @@
+<div align="center">
+	<h3>Login with your account</h3>
+	<form action="login.wsgi?action=login" method="POST">
+		<input name="username">
+		<input type="password" name="password">
+		<button>Login</button>
+	</form>
+	<div style="margin-top: 30px;"> </div>
+	<h3>Register a new account</h3>
+	<form action="login.wsgi?action=register" method="POST">
+		<input name="username">
+		<input type="password" name="password">
+		<button>Register</button>
+	</form>
+	<div style="margin-top: 30px;"> </div>
+	<h3>Logout</h3>
+	<form action="login.wsgi?action=logout" method="POST">
+		<button>Logout</button>
+	</form>
+</div>

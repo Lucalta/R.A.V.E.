@@ -1,0 +1,14 @@
+		<h2 id="crossrefTitle">CROSSREF</h2>
+		<div id="crossref"></div>
+		<div class="clearfix"></div>
+		<h2 id="instagramTitle">INSTAGRAM</h2>
+		<div id="instagram"></div>
+		<div class="clearfix"></div>
+		<h2 id="mapsTitle">BIRTHPLACE</h2>
+		<div id="map"></div>
+		<div class="clearfix"></div>
+		<h2 id="statsTitle">TOP PLAYED RELATED TRACKS</h2>
+		<div class="bubbleChart" id="stats"></div>
+		<div class="clearfix"></div>
+	</section>
+  </div>

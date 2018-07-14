@@ -1,0 +1,82 @@
+body {color: #35373a;}
+
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+}
+
+#mobileLogo, #logo {
+    color: #fff;
+    text-decoration: none;
+}
+
+.thumb.tleft, .thumb.tright, .infobox {
+    border: 3px inset #bd5d38;
+	clear: both;
+    margin: 5px;
+}
+
+.thumb.tright, .infobox {
+    float: right;
+}
+
+.thumb.tleft {
+    float: left;
+}
+
+.infobox caption {
+    color: #bd5d38;
+    text-align: center;
+    caption-side: top;
+}
+
+
+.gallerybox {
+    float: left;
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+
+.gallery {
+    float: left;
+}
+
+.gallery + h1, .gallery + h2, .gallery + h3, .gallery + h4, .gallery + h5, .gallery + h6 {
+    clear: both;
+}
+
+#error404, #crossrefTitle, #instagramTitle, #mapsTitle, #statsTitle, #spotifyTitle, .ambox-Refimprove, .navbox {
+    display: none;
+}
+
+.ambox, .wikitable th, .wikitable td {
+    border: 1px solid #bd5d38;
+}
+
+li.nav-item a {
+    color: #fff;
+}
+
+li.nav-item {
+    margin-top: 10px;
+}
+
+#instagram li {
+    float: left;
+    list-style: none;
+}
+
+.mapVisible {
+	height:400px;	
+}
+
+.bubbleChart {
+    text-shadow: 1px 1px #080808;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.homeList li {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
