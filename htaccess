@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^annotate/(.*)$ annotator.wsgi?page=$1 [L]
+
+RewriteRule ^wiki(/.*|)$ $1 [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !wsgi\.wsgi [NC]
+RewriteRule ^([^/]+)(.*)?$ wsgi.wsgi?page=$1   [L]
+
+RewriteCond %{REQUEST_URI} /index\.html$
+RewriteRule ^([^/]+)(.*)?$ wsgi.wsgi?page=$1   [L]
